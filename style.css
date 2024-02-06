@@ -47,6 +47,7 @@ nav {
 .subtitulo {
     display: flex;
     justify-content: center;
+    color: #fff;
 }
 
 .img-inicio {
@@ -111,6 +112,7 @@ footer {
 .contenedor-nuestra-empresa {
     display: flex;
     flex-direction: row;
+    color: #fff;
 }
 
 .contenedor-objetivos {
@@ -118,11 +120,13 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    color: #fff;
 }
 
 .contenidos-objetivos {
     padding-left: 30px;
     padding-right: 30px;
+    color: #fff;
 }
 
 h1 {
@@ -167,7 +171,7 @@ color: #00033a;
 
 }
 .tamaño-text-quehacemos{
-    font-size: 36px;
+    font-size: 20px;
 }
 
 .contenedor-qh {
@@ -192,7 +196,7 @@ h5 {
 .gif-inicio {
     display: flex;
     justify-content: center;
-    width: 1445px;
+    width: 95vw;
     height: 394px;
 }
 
@@ -233,46 +237,47 @@ h5 {
     border-radius: 0px 30px 30px 0px;
 
 }
-
-/*  grid conteiner clase 7 */
-.grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 150px 150px 150px;
-   ;
-
-grid-template-areas: 
-  'nav nav nav'
-  'publicidad publicidad publicidad'
-  'footer footer footer'
-;
-}
-
-.nav{
-    grid-area: nav;
-    border:4px #fff
-    ;
-}
-.publicidad{
-    grid-area: publicidad;
-   
-}
- .footer{
-    grid-area: footer;
-
-  
+.titulo{
+    color: #fff;
  }
 
- /* fin grid */
+.color-texto{
+    color: #fff;
+}
+  
 
- /* media queri */
+ .body-boss{
+    background-color: #00033a;
+}
+
+.color-horarios{
+    background-color: #ff0f0f;
+}
+
+.color-dias{
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ /* media query */
 
 
  @media only screen and (min-width:411px) and (max-width:980px)
 {
-    .logo-home,.img-inicio,.gif-inicio {
+    .logo-home,.img-inicio,.gif-inicio,.img-inicio,.logo-home, .quehacemosimg1, .quehacemosimg2, .quehacemosimg3,.quehacemosimg4 {
         width: 50%;
         height: 50%;
     }
+
 } 
 
